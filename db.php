@@ -1,3 +1,3 @@
 <?php
-$c = new mysqli("localhost", "user1", "Hello123");
-$c->select_db("bigma");
+$c = new mysqli("localhost", "u117143075_food", "u117143075_food");
+$c->select_db("salesvisit");
