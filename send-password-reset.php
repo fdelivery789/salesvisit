@@ -18,10 +18,10 @@ if ($results && $results->num_rows > 0) {
 function sendMail($email, $id) {
     $to      = $email;
     $subject = 'Atur ulang kata sandi Sales Visit';
-    $message = 'Mohon klik link di bawah untuk mengatur ulang kata sandi Anda:<br/><br/><a href="http://fdelivery.xyz/salesvisit/forgot-password.html?id=' . $id . '">Klik di sini</a>\n';
+    $message = "Mohon klik link di bawah untuk mengatur ulang kata sandi Anda:\n\nhttp://fdelivery.xyz/salesvisit/forgot-password.html?id=" . $id . "\n";
     $headers = 'From: fdelivery789@gmail.com' . "\r\n" .
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
-    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+    //$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
     mail($to, $subject, $message, $headers);
 }
