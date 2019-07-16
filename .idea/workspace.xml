@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/send-password-reset.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="300">
+              <caret line="20" column="190" lean-forward="true" selection-start-line="20" selection-start-column="190" selection-end-line="20" selection-end-column="190" />
             </state>
           </provider>
         </entry>
@@ -143,12 +143,12 @@
       <updated>1563204700269</updated>
       <workItem from="1563204701800" duration="5803000" />
       <workItem from="1563261182839" duration="9000" />
-      <workItem from="1563273854442" duration="1845000" />
+      <workItem from="1563273854442" duration="2514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7657000" />
+    <option name="totallyTimeSpent" value="8326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1296" height="741" extended-state="6" />
@@ -229,8 +229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/send-password-reset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="20" column="190" lean-forward="true" selection-start-line="20" selection-start-column="190" selection-end-line="20" selection-end-column="190" />
         </state>
       </provider>
     </entry>
