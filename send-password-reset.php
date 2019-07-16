@@ -9,7 +9,7 @@ if ($results && $results->num_rows > 0) {
     sendMail($email, $id);
     echo 1;
 } else {
-    $c->query("INSERT INTO reset_passwords (firebase_user_id) VALUES ('" . $email . "')");
+    $c->query("INSERT INTO reset_passwords (firebase_user_id) VALUES ('" . $userID . "')");
     $id = mysqli_insert_id($c);
     sendMail($email, $id);
     echo 2;
