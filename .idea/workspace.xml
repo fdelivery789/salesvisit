@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecd5443f-9ad6-40bf-8c70-9c8218d5847c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mail-test.php" beforeDir="false" afterPath="$PROJECT_DIR$/mail-test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/send-password-reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/send-password-reset.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/send-password-reset.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="375">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -144,12 +143,12 @@
       <updated>1563204700269</updated>
       <workItem from="1563204701800" duration="5803000" />
       <workItem from="1563261182839" duration="9000" />
-      <workItem from="1563273854442" duration="1540000" />
+      <workItem from="1563273854442" duration="1845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7352000" />
+    <option name="totallyTimeSpent" value="7657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1296" height="741" extended-state="6" />
@@ -230,8 +229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/send-password-reset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="375">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>

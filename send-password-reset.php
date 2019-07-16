@@ -6,20 +6,19 @@ $results = $c->query("SELECT * FROM reset_passwords WHERE firebase_user_id='" . 
 if ($results && $results->num_rows > 0) {
     $row = $results->fetch_assoc();
     $id = $row["id"];
-    sendMail($email);
+    sendMail($email, $id);
     echo 1;
 } else {
     $c->query("INSERT INTO reset_passwords (firebase_user_id) VALUES ('" . $email . "')");
     $id = mysqli_insert_id($c);
-    //sendMail($email, "", "Mohon klik link di bawah untuk mengatur ulang kata sandi Anda:\n\nhttp://b71df21d.ngrok.io/salesvisit/forgot-password.html?id=" . $id . "\n");
-    sendMail($email);
+    sendMail($email, $id);
     echo 2;
 }
 
-function sendMail($email) {
+function sendMail($email, $id) {
     $to      = $email;
     $subject = 'Atur ulang kata sandi Sales Visit';
-    $message = 'Mohon klik link di bawah untuk mengatur ulang kata sandi Anda:';
+    $message = 'Mohon klik link di bawah untuk mengatur ulang kata sandi Anda:\n\nhttp://b71df21d.ngrok.io/salesvisit/forgot-password.html?id=' . $id . '\n';
     $headers = 'From: fdelivery789@gmail.com' . "\r\n" .
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
